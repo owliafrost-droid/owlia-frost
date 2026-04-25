@@ -19,7 +19,7 @@ export default function OwliaFrostLandingPage() {
 
           <div className="pt-4">
             <a
-              href="https://wa.me/5210000000000"
+              href="https://wa.me/5214491731943"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-2xl px-8 py-4 text-base font-semibold shadow-md border border-gray-200 hover:scale-105 transition-transform"
