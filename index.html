@@ -13,54 +13,72 @@
     }
 
     body {
-      background: #f8f8f8;
-      color: #111;
+      background: linear-gradient(to bottom, #0a0a0a, #111111, #1a1a1a);
+      color: white;
+      min-height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
       padding: 20px;
     }
 
     .card {
-      background: white;
-      padding: 50px 30px;
-      border-radius: 25px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-      max-width: 700px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      backdrop-filter: blur(8px);
+      border-radius: 28px;
+      padding: 60px 35px;
+      max-width: 800px;
       width: 100%;
       text-align: center;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.35);
     }
 
     .mini {
-      letter-spacing: 4px;
+      letter-spacing: 6px;
       font-size: 12px;
-      color: gray;
+      color: #cfcfcf;
       text-transform: uppercase;
       margin-bottom: 20px;
     }
 
     h1 {
-      font-size: 42px;
-      margin-bottom: 20px;
+      font-size: 52px;
+      line-height: 1.2;
+      margin-bottom: 25px;
+      font-weight: 700;
+    }
+
+    .highlight {
+      color: #d9d9d9;
     }
 
     p {
-      color: #555;
+      color: #c7c7c7;
       font-size: 18px;
-      line-height: 1.6;
-      margin-bottom: 30px;
+      line-height: 1.8;
+      max-width: 650px;
+      margin: 0 auto 35px;
+    }
+
+    .categories {
+      margin-bottom: 35px;
+      font-size: 14px;
+      letter-spacing: 2px;
+      color: #9f9f9f;
+      text-transform: uppercase;
     }
 
     .btn {
       display: inline-block;
-      padding: 16px 32px;
+      padding: 18px 38px;
       border-radius: 18px;
       text-decoration: none;
-      color: black;
-      border: 1px solid #ddd;
+      color: white;
+      border: 1px solid rgba(255,255,255,0.25);
       font-weight: bold;
       transition: 0.3s;
+      background: rgba(255,255,255,0.06);
     }
 
     .btn:hover {
@@ -68,9 +86,9 @@
     }
 
     .footer {
-      margin-top: 35px;
+      margin-top: 40px;
       font-size: 14px;
-      color: #888;
+      color: #8f8f8f;
     }
   </style>
 </head>
@@ -79,15 +97,22 @@
   <div class="card">
     <div class="mini">Owlia Frost</div>
 
-    <h1>Estilo premium que impone presencia</h1>
+    <h1>
+      Estilo premium que <br>
+      <span class="highlight">impone presencia</span>
+    </h1>
+
+    <div class="categories">
+      Gorras • Ropa • Relojes • Accesorios • Tecnología
+    </div>
 
     <p>
-      Moda, accesorios y tecnología con una esencia elegante,
-      urbana y exclusiva. Diseñado para quienes quieren destacar
-      con presencia y estilo propio.
+      Una marca creada para quienes no pasan desapercibidos.
+      Moda urbana con esencia elegante, presencia premium y una
+      identidad que transmite exclusividad en cada detalle.
     </p>
 
-    <a 
+    <a
       class="btn"
       href="https://wa.me/5214491731943"
       target="_blank"
@@ -96,7 +121,7 @@
     </a>
 
     <div class="footer">
-      Moda • Accesorios • Tecnología • Estilo premium
+      Street Luxury • Minimal Elegance • Premium Identity
     </div>
   </div>
 
